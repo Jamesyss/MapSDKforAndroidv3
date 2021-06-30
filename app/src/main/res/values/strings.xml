@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MapSDKAndroidv3</string>
+
+    <!--Map ID-->
+    <string name="map_id1">b7e00bd57efc1210</string>
+    <string name="map_id2">87ac70e64725f972</string>
+    <string name="map_id3">3200da5c5786bfc2</string>
+
+</resources>
