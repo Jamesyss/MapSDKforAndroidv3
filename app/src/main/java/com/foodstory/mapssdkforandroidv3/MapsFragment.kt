@@ -73,75 +73,11 @@ class MapsFragment : Fragment(), OnMapReadyCallback {
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(livingMobile))
 
         // Multicolored Polyline
-        /*
-        val line = googleMap.addPolyline(
-            PolylineOptions()
-                .add(
-                    LatLng(13.792277383265722, 100.575979745895),
-                    LatLng(13.791861823423291, 100.57609860230417),
-                    LatLng(13.79202405939618, 100.57618560544084),
-                    LatLng(13.792315403615532, 100.5763544636901),
-                    LatLng(13.79282518717298, 100.5763526892593),
-                    LatLng(13.792612992324402, 100.5761504508075),
-                    LatLng(13.792479650981887, 100.57606645825722),
-                    LatLng(13.792277383265722, 100.575979745895)
-                )
-                .addSpan(StyleSpan(Color.GRAY))
-                .addSpan(StyleSpan(Color.CYAN))
-                .addSpan(StyleSpan(Color.BLUE))
-                .addSpan(StyleSpan(Color.GREEN))
-                .addSpan(StyleSpan(Color.YELLOW))
-                .addSpan(StyleSpan(Color.BLACK))
-                .addSpan(StyleSpan(Color.RED))
-        )
-         */
 
         // Gradient Polyline
-        /*
-        val line = googleMap.addPolyline(
-            PolylineOptions()
-                .add(
-                    LatLng(13.792277383265722, 100.575979745895),
-                    LatLng(13.791861823423291, 100.57609860230417),
-                    LatLng(13.79202405939618, 100.57618560544084),
-                    LatLng(13.792315403615532, 100.5763544636901),
-                    LatLng(13.79282518717298, 100.5763526892593),
-                    LatLng(13.792612992324402, 100.5761504508075),
-                    LatLng(13.792479650981887, 100.57606645825722),
-                    LatLng(13.792277383265722, 100.575979745895)
-                    )
-                .addSpan(
-                    StyleSpan(
-                        StrokeStyle.gradientBuilder(
-                            Color.RED,
-                            Color.YELLOW
-                        ).build()
-                    )
-                )
-        )
-         */
 
         // Stamped Polyline
-        /*
-        val stampStyle =
-            TextureStyle.newBuilder(BitmapDescriptorFactory.fromResource(R.drawable.maps_icon_gmm))
-                .build()
-        val span = StyleSpan(StrokeStyle.colorBuilder(Color.BLACK).stamp(stampStyle).build())
-        googleMap.addPolyline(
-            PolylineOptions()
-                .add(
-                    LatLng(13.792277383265722, 100.575979745895),
-                    LatLng(13.791861823423291, 100.57609860230417),
-                    LatLng(13.79202405939618, 100.57618560544084),
-                    LatLng(13.792315403615532, 100.5763544636901),
-                    LatLng(13.79282518717298, 100.5763526892593),
-                    LatLng(13.792612992324402, 100.5761504508075),
-                    LatLng(13.792479650981887, 100.57606645825722),
-                    LatLng(13.792277383265722, 100.575979745895)
-                )
-                .addSpan(span)
-        )
-         */
+        
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
